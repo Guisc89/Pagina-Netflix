@@ -34,7 +34,7 @@ Carrossel de filmes<br>
 🔗 Veja o projeto
 
 ### 👉 Acessar site
- ([coloca o link quando subir](https://guisc89.github.io/Pagina-Netflix/))
+ ([clique aqui](https://guisc89.github.io/Pagina-Netflix/))
 
 ### 🧩 Observação
 
