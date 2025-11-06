@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body{
     
 }
 
-.menu-superior{
+.menu-superior {
     position: absolute;
     width: 100%;
     margin-top: 7vh;
@@ -18,13 +18,13 @@ body{
     align-items: center;
     z-index: 13;}
 
-.logo-netflix{
+.logo-netflix {
     width: 150px;
     height: auto;
     z-index: 33;
 }    
 
-.nav button{
+.nav button {
     background-color: rgb(194, 5, 5);
     color: white;
     border: none;
@@ -34,7 +34,7 @@ body{
     z-index: 13;
 }
 
-#idioma{
+#idioma {
     background-color: rgba(17, 17, 17, 0.411);
     color: rgb(255, 255, 255);
     border: 2px solid white;
@@ -56,7 +56,7 @@ body{
 
 /* Esconde a tag <img> interna quando a imagem já está definida como background
    Isso evita que a <img> cubra o background (incluindo o gradiente) */
-.caixa-imagem img{
+.caixa-imagem img {
     display: none;
 }
 
@@ -75,7 +75,7 @@ body{
 
 }
 
-#email{
+#email {
     background-color: rgba(17, 17, 17, 0.411);
     color: rgb(255, 255, 255);
     border: 2px solid white;
@@ -85,7 +85,7 @@ body{
     z-index: 14;
 }
 
-#principal{
+#principal {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -95,25 +95,25 @@ body{
     margin-bottom: 20px;
 }
 
-#valor-mensal{
+#valor-mensal {
     font-size: 1.5em;
     margin-bottom: 20px;
     font-weight: lighter;
 }
 
-#quer-assistir{
+#quer-assistir {
     font-size: 0.9em;
     margin-bottom: 20px;
     font-weight: 100;
 }
 
-#login-form{
+#login-form {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
-#submit{
+#submit {
     background-color: rgb(194, 5, 5);
     color: white;
     border: none;
@@ -124,16 +124,95 @@ body{
     z-index: 14;
 }
 
-.container-tv{
-    width: 90%;
-    height: 600px;
-    margin: 0 auto;
-    display:flex;
+.box-infos {
+  display: flex;
+  flex-direction: column; /* empilha os filhos verticalmente */
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  background-image: linear-gradient(333.52deg, #000235 24.58%, #010F42 84.55%, #E40913 104.96%);
+  border-radius: 10px;
+  z-index: 16;
+  padding-bottom: 20px; /* espaço para a sombra */
+}
+
+.content-infos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(240, 0, 0);
+    padding: 0 auto;      
     color: white;
-    font-size: medium;
+}
+
+
+#title-infos {
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+#text-infos-one {
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+.shadow {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 4%;
+    width: 80%;
+    height: 10px;
+    background-color: rgba(2, 2, 2, 0.466);
     border-radius: 10px;
-    z-index: 50;
+    z-index: 21;
+}
+
+.tablet {
+    width: 60%;
+    margin-left: 50px;
+    z-index: 18;
+}
+
+.footer-content {   
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.links-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 10px 20px; /* espaçamento entre linhas e colunas */
+  margin: 20px 20px 20px 20px;
+  
+}
+
+.links-footer a {
+    color: #b8b8b8;
+    text-decoration: underline;
+    font-size: 0.9em;
+    padding: 20px;
+}
+
+#footer-copy {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #b8b8b8;
+}
+
+@media (max-width: 768px) {
+  #principal { font-size: 2em; }
+  #email { max-width: 90%; padding: 1rem; }
+  .content-infos { flex-direction: column; }
 }

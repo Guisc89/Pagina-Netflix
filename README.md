@@ -13,7 +13,7 @@ CSS3
 
 Flexbox e Grid Layout
 
-Design Responsivo
+O design é para telas de computadores
 
 ### 🎨O que tem de interessante
 
@@ -34,7 +34,7 @@ Carrossel de filmes<br>
 🔗 Veja o projeto
 
 ### 👉 Acessar site
- (coloca o link quando subir)
+ ([coloca o link quando subir](https://guisc89.github.io/Pagina-Netflix/))
 
 ### 🧩 Observação
 
