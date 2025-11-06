@@ -155,12 +155,12 @@ body {
 }
 
 
-#title-infos {
+.title-infos {
     font-size: 3.5em;
     font-weight: 800;
 }
 
-#text-infos-one {
+.text-infos-one {
     font-size: 1.4em;
     font-weight: 100;
 }
